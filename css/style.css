@@ -1,0 +1,269 @@
+.header_content-span {
+  display: block;
+  color: #2C2B31;
+  font-family: Gotham Pro;
+  font-size: 12.694px;
+  text-align: center;
+}
+
+.header_content {
+  background-color: #F19D2F;
+  padding: 10px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 400px;
+
+}
+
+.section_logo-content {
+  padding: 20px 0;
+  background-color: #FFD1AC;
+  text-align: center;
+}
+
+.section_logo-images {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_logo-images::after {
+  display: block;
+  content: '';
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #F19D2F;
+  right: 69px;
+  position: relative;
+}
+
+.section_logo-span {
+  color: #2C2B31;
+  text-align: center;
+  font-family: Gotham Pro;
+  font-size: 13.469px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section_price-content {
+  width: 100%;
+  height: 280px;
+  background-image: url(../images/shoesOnSale.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end
+}
+
+.section_price-limited-offer {
+  background-color: #F19D2F;
+  max-height: 58px;
+  max-width: 104px;
+  padding: 9px 7px;
+  color: #ffffff;
+  border-radius: 7.101px;
+  text-align: center;
+}
+
+.section_price-limited-span {
+  font-family: Gotham Pro;
+  font-size: 10.599px;
+  font-weight: 700;
+}
+
+.section_price-limited-time {
+  font-size: 21.254px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.section_price-content_price {
+  border-radius: 5.677px;
+  background: #37D997;
+  max-height: 58px;
+  max-width: 104px;
+  padding: 6px 5px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.section_price-content_old-price {
+  display: block;
+  font-size: 18.077px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_price-content_old-price::after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 70px;
+  height: 3.514px;
+  background: #E27500;
+  border-radius: 20px;
+}
+
+.section_price-content_new-price {
+  font-size: 22.301px;
+  font-weight: 700;
+}
+
+.section_goods-content {
+  background: #f0f0f0;
+  padding: 17px;
+}
+
+.section_goods-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.section_goods-grade {
+  color: #2C2B31;
+  font-family: Gotham Pro;
+  font-size: 12.067px;
+}
+
+.section_goods-images_content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.section_goods-selling {
+  color: #37D997;
+  font-family: Gotham Pro;
+  font-size: 12.067px;
+  text-decoration-line: underline;
+}
+
+.section_goods-title {
+  color: #2C2B31;
+  font-family: Gotham Pro;
+  font-size: 19.168px;
+  margin-bottom: 20px;
+}
+
+.section_goods-images_list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.section_goods-element {
+  max-width: 80px;
+}
+
+.section_goods-element:hover {
+  cursor: pointer;
+}
+
+.section_goods-paragraph {
+  margin-bottom: 12px;
+  font-family: Gotham Pro;
+  font-size: 15.29px;
+  font-weight: 700;
+}
+
+.section_goods-span {
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section_goods-grade {
+  display: flex;
+  margin-bottom: 34px;
+}
+
+.section_goods-grade_stars {
+  margin-right: 10px;
+}
+
+.section_goods-grade_span {
+  font-size: 15.29px;
+}
+
+.section_goods-selectors {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.section_goods-select-size,
+.section_goods-select-color {
+  width: 170px;
+  height: 50px;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-family: Gotham Pro;
+  font-size: 21.69px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+.section_goods-selectors::after {
+  content: "color";
+  position: absolute;
+  color: #2C2B31;
+  text-align: center;
+  font-family: Gotham Pro;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  top: -13px;
+  left: 72px;
+}
+
+.section_goods-selectors::before {
+  content: "size";
+  position: absolute;
+  color: #2C2B31;
+  text-align: center;
+  font-family: Gotham Pro;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  right: 74px;
+  top: -13px;
+}
+
+.section_goods-button {
+  height: 50px;
+  display: flex;
+  border-radius: 15px;
+  background: #37D997;
+  color: #FFF;
+  text-align: center;
+  font-family: Gotham Pro;
+  font-size: 30px;
+  text-transform: uppercase;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.active {
+  opacity: 0.4;
+}
